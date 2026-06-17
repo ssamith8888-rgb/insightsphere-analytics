@@ -55,12 +55,15 @@ We've prepared two standard ways to deploy this application to production: **Ren
 
 Render makes it extremely simple to deploy this monorepo as a single Web Service using our pre-configured `render.yaml` blueprint.
 
+**Direct 1-Click Deployment:**
+[![Deploy to Render](https://render.com/images/deploy-to-render.svg)](https://render.com/deploy?repo=https://github.com/ssamith8888-rgb/insightsphere-analytics)
+
+Alternatively, follow these manual steps:
 1. Create a free account on [Render](https://render.com/).
-2. Push your project code to a GitHub or GitLab repository.
+2. Your repository is live at: [github.com/ssamith8888-rgb/insightsphere-analytics](https://github.com/ssamith8888-rgb/insightsphere-analytics).
 3. In the Render Dashboard, click **New** → **Blueprint**.
-4. Connect your GitHub repository.
-5. Render will automatically parse the `render.yaml` file, spin up a new container using the `Dockerfile`, and deploy the app.
-6. The service will be live on a public URL (e.g. `https://insightsphere.onrender.com`).
+4. Connect the repository `ssamith8888-rgb/insightsphere-analytics`.
+5. Render will automatically parse the `render.yaml` file, build the Docker image, and launch the service.
 
 ---
 
