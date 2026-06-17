@@ -1,5 +1,11 @@
 # InsightSphere: Full-Stack Web Analytics Application
 
+### 🔗 Live URLs
+- **Live Demo URL**: [https://6ec5aab285a842.lhr.life](https://6ec5aab285a842.lhr.life)
+- **GitHub Repository**: [https://github.com/ssamith8888-rgb/insightsphere-analytics](https://github.com/ssamith8888-rgb/insightsphere-analytics)
+
+---
+
 InsightSphere is a gorgeous, premium, dark-mode real-time web analytics application designed to capture visitor sessions, page views, and client interaction clicks, providing analytical charts, funnel conversion flow tracking, and database health latency checks.
 
 It is built with **React (Vite)** on the frontend, **Express.js** on the backend, and **SQLite** for lightweight, zero-infra local database storage.
