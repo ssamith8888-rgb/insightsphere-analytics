@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: insightsphere-analytics
+    env: docker
+    dockerfilePath: Dockerfile
+    plan: free
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: NODE_ENV
+        value: production
